@@ -9,7 +9,6 @@ $(document).ready(function(){
 	
 	$.getJSON(url, function(data){
 		//data 추출하기
-		alert('');
 		var $cTemp = data.main.temp + "℃";
 		var $minTemp = "최저 " + data.main.temp_min + "℃";
 		var $maxTemp = "최고 " + data.main.temp_max + "℃";
