@@ -24,7 +24,7 @@
 	
 	<!--====================================================================================-->
 
-	<script src="/resources/weather.js"></script>
+	<script src="weather.js"></script>
 </head>
 <body>
 
