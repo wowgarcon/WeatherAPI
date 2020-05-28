@@ -31,7 +31,7 @@
 <body>
 
 	<br>
-	<h2 class="text-center">나라 이름</h2>
+	<h2 id="cityName" class="text-center"></h2>
 	<br>
 	<div class="d-flex flex-wrap shadow text-center justify-content-center align-items-center">
 		<div class="flex-fill p-2 d-flex justify-content-center align-items-center">
@@ -65,11 +65,19 @@
 		</div>
 	</div>
 
-	<select>
-		<option></option>
-		<option></option>
-		<option></option>
-		<option></option>
+	<br>
+	
+	<select id="cityName_Selector">
+		<option value="London" selected="selected">London</option>
+		<option value="Paris">Paris</option>
+		<option value="Nice">Nice</option>
+		<option value="Lyon">Lyon</option>
+		<option value="Seoul">Seoul</option>
+		<option value="Gimpo">Gimpo</option>
+		<option value="Incheon">Incheon</option>
+		<option value="Busan">Busan</option>
+		<option value="Guam">Guam</option>
+		<option value="Tokyo">Tokyo</option>
 	</select>
 </body>
 </html>
